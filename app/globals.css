@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme inline {
+  --color-brandPurple: #4d2a83;
+  --color-brandCuriousBlue: #309ec4;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Outfit", sans-serif !important;
+}
+
+/* Custom Utilities */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-panel-bg {
+  background: linear-gradient(
+    to right,
+    #daede6 0%,
+    #daede6 10%,
+    #e3f1ed 10%,
+    #e3f1ed 20%,
+    #ebf5f3 20%,
+    #ebf5f3 30%,
+    #f3f9f8 30%,
+    #f3f9f8 40%,
+    #fafcfc 40%,
+    #fafcfc 50%,
+    #ffffff 50%,
+    #ffffff 60%,
+    #fafcfc 60%,
+    #fafcfc 70%,
+    #f3f9f8 70%,
+    #f3f9f8 80%,
+    #ebf5f3 80%,
+    #ebf5f3 90%,
+    #e3f1ed 90%,
+    #e3f1ed 100%
+  );
+}
+
+.btn-neon-emerald {
+  background-color: var(--color-brandPurple);
+  transition: all 0.3s ease;
+}
+
+.btn-neon-emerald:hover {
+  background-color: var(--color-brandCuriousBlue);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(0, 255, 136, 0.5);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
