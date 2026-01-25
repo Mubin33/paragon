@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(77,42,131,0.15),transparent_50%)]"></div>
 
             {/* Video positioned on the right side - smaller and more to the right */}
-            <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[50%] h-[70%] z-0 hidden lg:block">
+            <div className="absolute top-1/2 right-20 -translate-y-1/2 w-[50%] h-[70%] z-0 hidden lg:block">
                 <video
                     autoPlay
                     loop
@@ -26,7 +26,7 @@ const Hero = () => {
                         opacity: 0.8
                     }}
                 >
-                    <source src="/hero-video.mp4" type="video/mp4" />
+                    <source src="/hero-video3.mp4" type="video/mp4" />
                 </video>
             </div>
 
