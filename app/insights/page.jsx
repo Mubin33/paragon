@@ -15,7 +15,7 @@ const InsightsPage = () => {
             desc: "How autonomous agents are redefining enterprise productivity and why privacy-first LLMs are the future."
         },
         {
-            title: "Scaling Global Infrastructure from Dhaka",
+            title: "Scaling Global Infrastructure from Manila",
             category: "Case Study",
             author: "Architect Team",
             date: "Jan 05, 2026",
