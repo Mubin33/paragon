@@ -14,7 +14,7 @@ const Footer = () => {
                             </Link>
                         </div>
                         <p className="text-sm leading-relaxed">
-                            Global AI & Cloud Software Company providing enterprise-grade, secure, and scalable solutions from Bangladesh to the world.
+                            Global AI & Cloud Software Company providing enterprise-grade, secure, and scalable solutions from Philippines to the world.
                         </p>
                         <div className="flex space-x-4">
                             {/* Social icons could go here */}

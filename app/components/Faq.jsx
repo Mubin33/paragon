@@ -19,7 +19,7 @@ const FAQS = [
     },
     {
         question: "Where is your engineering team located?",
-        answer: "Our primary engineering hub is in Dhaka, Bangladesh, providing a highly skilled talent pool at a competitive cost advantage. We also maintain satellite offices in London and New York for client management and solution architecture."
+        answer: "Our primary engineering hub is in Manila, Philippines, providing a highly skilled talent pool at a competitive cost advantage. We also maintain satellite offices in London and New York for client management and solution architecture."
     },
     {
         question: "Do you offer post-deployment support?",

@@ -83,7 +83,7 @@ const ContactPage = () => {
                                         </div>
                                         <div>
                                             <h4 className="font-bold text-slate-900 text-lg mb-1 tracking-tight">Global Ops Assurance</h4>
-                                            <p className="text-slate-500 text-sm font-medium leading-relaxed">Learn how our Dhaka delivery center integrates seamlessly with your local timezone and standards.</p>
+                                            <p className="text-slate-500 text-sm font-medium leading-relaxed">Learn how our Manila delivery center integrates seamlessly with your local timezone and standards.</p>
                                         </div>
                                     </div>
                                 </div>
