@@ -175,7 +175,7 @@ const SolutionsPage = () => {
                                 <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm">
                                     <Globe className="w-8 h-8 mb-4 text-brandCuriousBlue" />
                                     <h4 className="font-bold mb-2">Global Ops</h4>
-                                    <p className="text-xs text-purple-200">Dhaka to the world.</p>
+                                    <p className="text-xs text-purple-200">Manila to the world.</p>
                                 </div>
                             </div>
                         </div>

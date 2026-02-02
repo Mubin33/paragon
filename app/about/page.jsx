@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'About Us | Paragon',
-    description: 'Learn about Paragon, our mission, values, and how we are engineering the digital future from Bangladesh to the world.',
+    description: 'Learn about Paragon, our mission, values, and how we are engineering the digital future from Philippines to the world.',
 };
 
 const AboutPage = () => {
@@ -17,7 +17,7 @@ const AboutPage = () => {
         {
             icon: <Users className="w-8 h-8" />,
             title: "Global Talent",
-            desc: "Headquartered in Dhaka, we tap into a world-class pool of engineers to deliver high-performance results."
+            desc: "Headquartered in Manila, we tap into a world-class pool of engineers to deliver high-performance results."
         },
         {
             icon: <ShieldCheck className="w-8 h-8" />,
@@ -39,7 +39,7 @@ const AboutPage = () => {
                     <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Our Story</span>
                     <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 tracking-tight">Engineering the <br /> Digital Future</h1>
                     <p className="text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
-                        Paragon is a global AI & Cloud Software Company. From our engineering hub in Bangladesh, we deliver secure, scalable, and intelligent solutions to enterprises worldwide.
+                        Paragon is a global AI & Cloud Software Company. From our engineering hub in Philippines, we deliver secure, scalable, and intelligent solutions to enterprises worldwide.
                     </p>
                 </div>
             </section>
@@ -64,7 +64,7 @@ const AboutPage = () => {
                                     <div className="w-6 h-6 rounded-full bg-brandPurple/10 flex items-center justify-center text-brandPurple mt-1">
                                         <div className="w-2 h-2 rounded-full bg-current"></div>
                                     </div>
-                                    <p className="text-slate-700 font-medium">Headquartered in Dhaka with global reach.</p>
+                                    <p className="text-slate-700 font-medium">Headquartered in Manila with global reach.</p>
                                 </div>
                             </div>
                         </div>

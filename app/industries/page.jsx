@@ -30,7 +30,7 @@ const IndustriesPage = () => {
         {
             icon: <Factory className="w-10 h-10" />,
             title: "RMG & Manufacturing",
-            desc: "Supply chain visibility, inventory control, and factory automation for the heart of Bangladesh industry.",
+            desc: "Supply chain visibility, inventory control, and factory automation for the heart of Philippines industry.",
             count: "30+ Factory Groups"
         },
         {
